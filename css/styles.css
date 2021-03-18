@@ -4,3 +4,34 @@ font-family: 'Open Sans', sans-serif; */
 .navbar {
     background-color: rgb(74, 99, 90);
 }
+
+.navbar a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/fire-pit.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0;
+}
+
+.jumbotron h1 {
+    color: rgb(224, 221, 221);
+    font-family: 'Lobster', cursive;
+    position: relative;
+    top: 20%;
+}
+
+.jumbotron a {
+    position: relative;
+    top: 20%;
+    background-color: rgb(74, 99, 90);
+    border: none;
+}
+
+.jumbotron a:hover {
+    opacity: .8;
+}
